@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
             }
         }
         DontDestroyOnLoad(gameObject);
+        PlayerPrefs.DeleteAll();
     }
 
 }
